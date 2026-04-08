@@ -11,9 +11,9 @@ let check = 6;
 
 do{
     if (check % 2 === 0) {
-        console.log("The number" + check + "is even. ");
+        console.log("The number", check + " is even. ");
     } else{
-        console.log("The number" + check + "is odd. ");
+        console.log("The number", check + " is odd. ");
     }
     check++;
 } while (check <= 10);
