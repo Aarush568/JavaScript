@@ -5,11 +5,11 @@ const number = 5; // You can change this number to test
 var result;
 
 if (number == 0) {
-  result = "Neutral number (zero)";
+  result = "neutral";
 } else if (number % 2 == 0) {
-  result = "Even number";
+  result = "even";
 } else {
-  result = "Odd number";
+  result = "odd";
 }
 
 console.log("The number is:", result);
