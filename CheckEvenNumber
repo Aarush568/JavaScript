@@ -1,0 +1,41 @@
+// Function to check if a number is even
+function isEven(num) {
+    if (num % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// Array to store even numbers
+let evenNumbers = [];
+
+// Simulate user input (replace with prompt() for browser)
+let numbers = [5, 12, 7, 8, 13, 4, 0]; // example input
+let i = 0;
+
+console.log("🔢 Collect Even Numbers Game");
+console.log("Enter numbers (0 to stop)\n");
+
+// While loop to process inputs
+while (true) {
+    let num = numbers[i];
+    i++;
+
+    console.log("You entered: " + num);
+
+    if (num === 0) {
+        break; // stop when user enters 0
+    }
+
+    // Check if even
+    if (isEven(num)) {
+        evenNumbers.push(num);
+        console.log(num + " is even, added to the list.\n");
+    } else {
+        console.log(num + " is odd, not added.\n");
+    }
+}
+
+// Print final result
+console.log("✅ All even numbers you entered: " + evenNumbers);
