@@ -38,4 +38,4 @@ while (true) {
 }
 
 // Print final result
-console.log("✅ All even numbers you entered: " + evenNumbers);
+console.log("✅ All even numbers you have entered: " + evenNumbers);
