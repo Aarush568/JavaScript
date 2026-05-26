@@ -8,4 +8,4 @@ function hollowSquare(n) {
     }
 }
 
-hollowSquare(5);
+hollowSquare(50);
