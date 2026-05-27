@@ -21,6 +21,27 @@ const foodDeliveryDB = [
     },
 
     {
+        name: "Ronaldo",
+        location: "Delhi",
+        orders: [
+            {
+                restaurant: "Maharadscha",
+                items: [
+                    {name: "Butter Chicken", price: 10, quantity: 20},
+                    {name: "Kheer", price: 2, quantity: 8}
+                ]
+            },
+            {
+                restaurant: "IndiaTown",
+                items: [                   
+                    {name: "Rice", price: 5, quantity: 3},
+                    {name: "Paneer", price: 8, quantity: 2}
+                ]
+            }
+        ]
+    },
+
+    {
         name: "Aman",
         location: "Delhi",
         orders: [
