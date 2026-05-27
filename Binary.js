@@ -1,4 +1,4 @@
-// Ask user for a positive integer
+// Ask the user for a positive integer
 let num = parseInt(prompt("Enter a positive integer: "));
 
 if (isNaN(num) || num < 0) {
